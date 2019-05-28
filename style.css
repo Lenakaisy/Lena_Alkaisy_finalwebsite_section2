@@ -1,0 +1,94 @@
+#myContainer {
+  width: 100vw;
+  height: 100vh;
+  background: yellow;
+}
+#myAnimationred {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+#myAnimationgreen {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: green;
+}
+#myAnimationyellow{
+    background-color: yellow;
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: yellow transparent;
+  }
+#myAnimationbrown{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: brown;
+}
+
+#explanation {
+  width: 962px;
+  height: 130px;
+  position: absolute;
+  top: 1000px;
+  left: -600px;
+  font-size: 20;
+  background-color: blue;
+  border-color: blue;
+  color: white;
+}
+#bordered1{
+  width: 300px;
+  height: 199px;
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+  background-color: green;
+  color: yellow;
+}
+#bordered2{
+  width: 500px;
+  height: 90px;
+  position: absolute;
+  background-color: blue;
+  background-blend-mode: color-dodge;
+}
+
+h2{
+  color: red;
+  background-color:
+}
+#pentagon {
+      position: relative;
+      width: 54px;
+      box-sizing: content-box;
+      border-width: 50px 18px 0;
+      border-style: solid;
+      border-color: red transparent;
+    }
+#pentagon:before {
+      content: "";
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -85px;
+      left: -18px;
+      border-width: 0 45px 35px;
+      border-style: solid;
+      border-color: transparent transparent red;
+    }
+  #marqueEffect{
+    border-width: 0 1000px 2000px;
+    border-color: transparent;
+    color: red;
+  }
+#imageWork{
+  border-width: 0 1000px 2000px;
+  border-color: transparent;
+  color: red;
+}
